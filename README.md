@@ -1,1 +1,3 @@
-# Ecommerce_Follow_Along.
+# Ecommerce_Follow_Along
+
+Created README.md                
