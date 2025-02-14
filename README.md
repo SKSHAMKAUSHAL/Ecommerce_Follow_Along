@@ -54,3 +54,22 @@ Handle Login with Hashed Passwords
 During the login process, compare the entered password with the hashed version stored in the database. Use bcrypt to safely verify if the entered password matches the stored hash.
 
 Ecommerce_Follow_Along/README.md at main .
+
+
+# Milestone 7 
+Create Login Endpoint:
+
+Accept user credentials (email/username and password).
+Retrieve the corresponding user from the database.
+Validate Password:
+
+Use bcrypt to hash the entered password.
+Compare it with the stored hashed password for authentication.
+
+#  Milestone 8 
+Create the Card Component:
+
+Design a reusable card component with props for product details (e.g., name, image, price).
+Design the Homepage Layout:
+
+Set up a grid layout or flexbox for displaying multiple cards neatly.
