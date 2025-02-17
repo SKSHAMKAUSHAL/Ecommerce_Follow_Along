@@ -73,3 +73,8 @@ Design a reusable card component with props for product details (e.g., name, ima
 Design the Homepage Layout:
 
 Set up a grid layout or flexbox for displaying multiple cards neatly.
+ # Milestone 9
+
+ Create the form for products
+
+This form will take multiple product images images as input
