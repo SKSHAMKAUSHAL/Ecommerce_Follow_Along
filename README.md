@@ -23,8 +23,7 @@ We also designed the front end for login page of the e-commerce application.
 
 Set up dedicated folders for organizing backend code effectively.
 Initialize and configure a Node.js server to handle API requests.
-Connect y
-our application to MongoDB to store and manage data.
+Connect your application to MongoDB to store and manage data.
 Implement basic error handling to ensure your server runs smoothly.
 
 ***Milestone 4***: **Created and Configured Files**
@@ -39,52 +38,69 @@ In this part of the Follow Along project we made the UI (Frontend) for the sign 
 
 After the user is done with entering backend comes into play. Backend does the form validation part, it verifies whether the user has entered the details in the right format(e.g. email, minimum length)
 
-# Milestone 6:
+***Milestone 6***: 
 
-Encrypt the Password Using bcrypt
-During the user signup process, encrypt the user's password using the bcrypt hashing algorithm. This ensures that the password is stored in a secure, non-reversible format. The bcrypt algorithm adds a "salt" to the password before hashing, making it resistant to common password-cracking techniques. The hashed password should never be stored in plain text.
+1. Encrypt the Password Using bcrypt
 
-Save the Hashed Password in the Database
-Only store the hashed version of the password in the database. Do not store plain text passwords for security reasons. Ensure the hashed password is securely saved in the database along with other user information.
+During the user signup process, encrypt the user's password using the bcrypt hashing algorithm. This ensures that the password is stored in a secure, non-reversible format.
+The bcrypt algorithm adds a "salt" to the password before hashing, making it resistant to common password-cracking techniques.
+The hashed password should never be stored in plain text.
 
-Store Complete User Data
-In addition to the hashed password, save the user's other information, such as their name, email, and any other relevant data. The complete user data should be stored securely, ensuring that sensitive information like the password remains encrypted.
+2. Save the Hashed Password in the Database
 
-Handle Login with Hashed Passwords
-During the login process, compare the entered password with the hashed version stored in the database. Use bcrypt to safely verify if the entered password matches the stored hash.
+Only store the hashed version of the password in the database.
+Do not store plain text passwords for security reasons.
+Ensure the hashed password is securely saved in the database along with other user information.
 
-Ecommerce_Follow_Along/README.md at main .
+3. Store Complete User Data
 
+In addition to the hashed password, save the user's other information, such as their name, email, and any other relevant data.
+The complete user data should be stored securely, ensuring that sensitive information like the password remains encrypted.
 
-# Milestone 7 
-Create Login Endpoint:
+4. Handle Login with Hashed Passwords
+
+During the login process, compare the entered password with the hashed version stored in the database.
+Use bcrypt to safely verify if the entered password matches the stored hash.
+milestone_8
+
+**Milestone 7**
+1. Create Login Endpoint:
+
+**Milestone 7**
+
+1. Create Login Endpoint:
 
 Accept user credentials (email/username and password).
 Retrieve the corresponding user from the database.
-Validate Password:
+
+2. Validate Password:
 
 Use bcrypt to hash the entered password.
 Compare it with the stored hashed password for authentication.
 
-#  Milestone 8 
-Create the Card Component:
+
+**Milestone 8**
+1. Create the Card Component:
 
 Design a reusable card component with props for product details (e.g., name, image, price).
-Design the Homepage Layout:
+
+2. Design the Homepage Layout:
 
 Set up a grid layout or flexbox for displaying multiple cards neatly.
- # Milestone 9
 
- Create the form for products
+**Milestone 9**
 
-This form will take multiple product images images as input
+1. Create the form for products
 
-# Milestone 10
-we will create a mongoose schema for products and create and endpoint to store the product details. Let’s dive in and understand what this all means
+2. This form will take multiple product images images as input
 
-Product Schema
--Define the structure of product data (e.g., name, description, price, image URL) using Mongoose. -Ensure each field has proper validation (e.g., required fields, correct data types).
+**Milestone 10**
 
-Endpoint Creation
--Build a POST endpoint to receive product data.
-Validate and save the product details to MongoDB.
+1. Define the structure of product data (e.g., name, description, price, image URL) using Mongoose. -Ensure each field has proper validation (e.g., required fields, correct data types).
+
+2. Build a POST endpoint to receive product data.
+
+3. Validate and save the product details to MongoDB.
+
+Use bcrypt to hash the entered password.
+Compare it with the stored hashed password for authentication.
