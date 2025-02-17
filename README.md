@@ -78,3 +78,13 @@ Set up a grid layout or flexbox for displaying multiple cards neatly.
  Create the form for products
 
 This form will take multiple product images images as input
+
+# Milestone 10
+we will create a mongoose schema for products and create and endpoint to store the product details. Let’s dive in and understand what this all means
+
+Product Schema
+-Define the structure of product data (e.g., name, description, price, image URL) using Mongoose. -Ensure each field has proper validation (e.g., required fields, correct data types).
+
+Endpoint Creation
+-Build a POST endpoint to receive product data.
+Validate and save the product details to MongoDB.
