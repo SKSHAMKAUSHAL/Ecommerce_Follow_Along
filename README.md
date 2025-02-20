@@ -16,6 +16,6 @@ Tailwind CSS configurations
 
 We also designed the front end for login page of the e-commerce application.
 
-Milestone 3: File organizing and MongoDB
-
+ milestone_3
 Set up dedicated folders for organizing backend code effectively. Initialize and configure a Node.js server to handle API requests. Connect your application to MongoDB to store and manage data. Implement basic error handling to ensure your server runs smoothly.
+
