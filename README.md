@@ -69,15 +69,5 @@ Create the form for products
 
 This form will take multiple product images images as input
 
-Milestone 10
-
-Define the structure of product data (e.g., name, description, price, image URL) using Mongoose. -Ensure each field has proper validation (e.g., required fields, correct data types).
-
-Build a POST endpoint to receive product data.
-
-Validate and save the product details to MongoDB.
-
-Milestone 11
-
-Write an endpoint that will send all products data to frontend In frontend write an function to get all the data Display these data dynamically passing to product card component.
 Use bcrypt to hash the entered password. Compare it with the stored hashed password for authentication.
+
