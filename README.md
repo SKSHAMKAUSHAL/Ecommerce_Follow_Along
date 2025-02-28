@@ -42,18 +42,13 @@ Store Complete User Data
 In addition to the hashed password, save the user's other information, such as their name, email, and any other relevant data. The complete user data should be stored securely, ensuring that sensitive information like the password remains encrypted.
 
 Handle Login with Hashed Passwords
-During the login process, compare the entered password with the hashed version stored in the database. Use bcrypt to safely verify if the entered password matches the stored hash. milestone_8
+During the login process, compare the entered password with the hashed version stored in the database. Use bcrypt to safely verify if the entered password matches the stored hash.
 
 Milestone 7
 
-Create Login Endpoint:
-Milestone 7
+Create Login Endpoint: Accept user credentials (email/username and password). Retrieve the corresponding user from the database.
 
-Create Login Endpoint:
-Accept user credentials (email/username and password). Retrieve the corresponding user from the database.
-
-Validate Password:
-Use bcrypt to hash the entered password. Compare it with the stored hashed password for authentication.
+Validate Password: Use bcrypt to hash the entered password. Compare it with the stored hashed password for authentication.
 
 Milestone 8
 
@@ -86,4 +81,6 @@ Write an endpoint that will send all products with user mail to frontend In fron
 Milestone 13
 
 Write an endpoint that will receive new data and update the existing data inside MondoDB. In frontend we will add an edit button to the product card. When click on edit we will send the data to form and make it auto fill and have option to edit those data and save.
-Ecommerce_Follow_Along/README.md at milestone_13 · ashishyadav2605/Ecommerce_Follow_Along
+Milestone 14
+
+1.Write an endpoint that will Delete the data form MongoDB using ID. In frontend we will add an delete button to the product card. When click on delete button we will send the product id to server endpoint.
