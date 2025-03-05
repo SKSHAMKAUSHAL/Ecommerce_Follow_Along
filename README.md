@@ -84,3 +84,17 @@ Write an endpoint that will receive new data and update the existing data inside
 Milestone 14
 
 1.Write an endpoint that will Delete the data form MongoDB using ID. In frontend we will add an delete button to the product card. When click on delete button we will send the product id to server endpoint.
+
+milestone 15  
+
+Create an new Nav component with links to all pages:
+
+Home
+My-products
+Add product
+cart
+Make the Navbar responsive to all screen sizes.
+
+We will add the nav component to all the pages and make the navigations to all this pages smooth and easy.
+
+
