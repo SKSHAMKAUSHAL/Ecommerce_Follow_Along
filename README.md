@@ -98,6 +98,6 @@ Make the Navbar responsive to all screen sizes.
 We will add the nav component to all the pages and make the navigations to all this pages smooth and easy.
 
 
-milestone 16
+milestone 16--->
 
 Create an new page that display all the product data
