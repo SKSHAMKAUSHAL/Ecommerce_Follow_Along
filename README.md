@@ -101,3 +101,9 @@ We will add the nav component to all the pages and make the navigations to all t
 milestone 16--->
 
 Create an new page that display all the product data
+
+
+milestone 17 -->
+
+Write the cart schema to store products
+Write an endpoint to store receive and store product details in cart
