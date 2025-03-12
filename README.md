@@ -115,3 +115,10 @@ Write an endpoint to store receive and store product details in cart
  Milestone 18  ---->
 Create an Backend endpoint for cart page
 Write and endpoint to get products inside cart for user
+
+
+MILESTONE 19 --->
+
+create cart frontend page and display the products
+For each product add an option to increase and decrease quantity using + and - buttons.
+Create an Backend endpoint for increase and decrease quantity
