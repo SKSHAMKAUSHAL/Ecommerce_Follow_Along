@@ -163,3 +163,6 @@ You need to create an endpoint that will receive the products, user, address det
 You will get the mail of the user using that you need to retrive the _id of the user
 For each product the order will be different with same address
 using order schema you created earlier you will store order details in mongodb order collection
+
+
+
