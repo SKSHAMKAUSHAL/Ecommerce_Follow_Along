@@ -155,3 +155,11 @@ First we will display all the products we are ordering
 Next we will display the address user selected to deliver
 We will display the total value of the cart
 We will have an place order button at the bottom.
+
+
+
+Steps for Milestone 25📝
+You need to create an endpoint that will receive the products, user, address details
+You will get the mail of the user using that you need to retrive the _id of the user
+For each product the order will be different with same address
+using order schema you created earlier you will store order details in mongodb order collection
