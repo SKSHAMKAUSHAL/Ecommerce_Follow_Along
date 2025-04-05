@@ -132,42 +132,55 @@ display profile photo, name and email in one section
 In another section display address and add an button called "Add address"
 If there are no address display "No address found"
 
-Steps for Milestone 21📝
+
+
+Milestone 21📝
 create address form frontend page
 Create an state that will store input address
 when we click on add address in profile it should navigate to this form page.
 
 
-Steps for Milestone 22📝
+
+Milestone 22📝
 You need to create an endpoint that will receive the address from address form in frontend
 Add the address to the address array inside user collection.
 
 
-Steps for Milestone 23📝
+Milestone 23📝
 Create an placeorder button inside cart page and navigate to select address page when clicked.
 Create and select address page that will display all the available address and have an option to select one address.
 Write an backend endpoint that will send all the addresses of the user.
 
 
 
-Steps for Milestone 24📝
+Milestone 24📝
 First we will display all the products we are ordering
 Next we will display the address user selected to deliver
 We will display the total value of the cart
 We will have an place order button at the bottom.
 
 
-
-Steps for Milestone 25📝
+Milestone 25📝
 You need to create an endpoint that will receive the products, user, address details
 You will get the mail of the user using that you need to retrive the _id of the user
 For each product the order will be different with same address
 using order schema you created earlier you will store order details in mongodb order collection
 
 
-
-Steps for Milestone 26📝
+ Milestone 26📝
 You need to create an endpoint that will receive the user mail
 You will get the mail of the user using that you need to retrive the _id of the user
 Using that _id you need to get all the orders of that user
 Send all the users orders in the response.
+
+
+
+
+
+
+Milestone 27📝
+You need to create an my-orders page
+You will send an get request to my-orders endpoint that we created in previous milestone.
+We will send user mail in to endpoint to get all the user orders
+Display all the user orders
+We will add my-orders page in navbar for better navigation.
