@@ -184,3 +184,10 @@ You will send an get request to my-orders endpoint that we created in previous m
 We will send user mail in to endpoint to get all the user orders
 Display all the user orders
 We will add my-orders page in navbar for better navigation.
+
+
+Steps for Milestone 28📝
+In my-orders page for every order add cancel order button
+If the order is already canceled this button should not be displayed
+You need to create an endpoint that will receive the order-id
+Get the order using this id and mark the status canceled and save
