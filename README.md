@@ -201,3 +201,36 @@ In this sandbox accounts you can find your client id copy and save it.
 In your order conformation page you need two options for payment one is COD and another is online payment.
 Create radio buttons to select COD or online payment and when we click on online payment PayPal buttons need to be displayed.
 In next milestone we will write an code to display and use those PayPal online Payments buttons.
+
+
+
+Steps for Milestone 30📝
+After creating PayPal account and getting the UserID inside sandbox account.
+Implement online payment using PayPal API using the client key you created earlier.
+Download NPM package called react-paypal-js that will provide an component called PayPalScriptProvider which will display online payment methods like credit or debit card etc..,
+
+
+
+Steps for Milestone 31📝
+Install an npm package called react-redux
+create an new folder called store with two files store.js and userActions.js.
+We will store user mail inside global state.
+In store.js file configure an store with userReducer function that will handle global user email state.
+Inside userActions.js file write an function called setEmail that will help in storing email state inside global state.
+In Index.js file make sure to wrap APP component inside provider component with store as props.
+
+
+
+
+
+
+
+Steps for Milestone 32📝
+In Login page we will use Dispatch method to store the mail inside global state
+In all the remaining pages acc the mail stored in global state using useSelector
+
+Steps for Milestone 33📝
+Download jsonwebtoken package using NPM
+Use sign method to create an JWT token with mail and ID
+Give maxAge to set expire time
+Add the cookie inside the response that helps you to store the cookie inside browser.
