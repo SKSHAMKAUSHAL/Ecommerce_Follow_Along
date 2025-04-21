@@ -245,7 +245,3 @@ In backend write an middleware function to validate that JWT token
 In every page make sure that this steps will happen so that user cannot go to that page with out login
 
 
-Steps for Milestone 34📝
-Get the token from the browser cookie and send it to the server
-In backend write an middleware function to validate that JWT token
-In every page make sure that this steps will happen so that user cannot go to that page with out login
